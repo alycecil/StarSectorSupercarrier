@@ -34,7 +34,7 @@
         10
     ],
 	"builtInMods": [
-		"alice_wingcommander_relay"
+		"alice_wingcommander_relay", "alice_losttech"
 	],
     "builtInWings": [
 		"wolf_fighter_Starting_wing",
