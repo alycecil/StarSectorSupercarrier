@@ -1,0 +1,14 @@
+{
+ "id": "alices_mod",
+ "name": "Supercarrier",
+ "author": "Alice Tries",
+
+ "version": "0.1",
+ "description": "Big fighters, big OP costs.",
+ "gameVersion": "0.95a-RC15",
+
+ "totalConversion": "false",
+ "utility": "false",
+ "jars":["jars/Supercarrier.jar"],
+
+}

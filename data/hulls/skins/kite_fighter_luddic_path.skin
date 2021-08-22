@@ -1,0 +1,20 @@
+{
+	"baseHullId":"kite_fighter",
+	"skinHullId":"kite_fighter_luddic_path",
+	"hullName":"Kite (F)(LP)",
+	"descriptionId":"kite",  # optional
+	"descriptionPrefix":"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war. This ship has lost its jump capability and is now used as a fighter aboard the larger carriers.",
+	"tags":[],
+	"tech":"Luddic Path",
+	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_luddic_path.png",
+	"baseValueMult":0.75,
+	"removeHints":[],
+	"addHints":[],
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["safetyoverrides","ill_advised"],
+	"builtInWeapons":{
+    },
+}

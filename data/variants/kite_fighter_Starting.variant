@@ -1,0 +1,30 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 9,
+    "fluxVents": 10,
+    "hullId": "kite_fighter_hegemony",
+    "hullMods": [
+        "hardened_subsystems",
+        "blast_doors"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "kite_fighter_Starting",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {"WS 001": "heatseeker"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS 002": "swarmer"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 003": "lightdualac"}
+        }
+    ]
+}

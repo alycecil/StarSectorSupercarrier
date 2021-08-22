@@ -1,0 +1,19 @@
+{
+	"baseHullId":"kite_fighter",
+	"skinHullId":"kite_fighter_pirates",
+	"hullName":"Kite (F)(P)",
+	"descriptionId":"kite",  # optional
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew. This ship has lost its jump capability and is now used as a fighter aboard the larger carriers.",
+	"tags":[],
+	"tech":"Pirate",
+	"spriteName":"graphics/ships/aeroshuttle/aeroshuttle_pirates.png",
+	"removeHints":[],
+	"addHints":[],	
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	#"builtInMods":["degraded_engines","comp_armor","faulty_grid"],
+	"builtInWeapons":{
+    },
+}

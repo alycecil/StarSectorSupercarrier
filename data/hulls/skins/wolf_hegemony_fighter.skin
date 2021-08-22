@@ -1,0 +1,43 @@
+{
+	"baseHullId":"wolf_fighter",
+	"skinHullId":"wolf_hegemony_fighter",
+	"hullName":"Wolf (F)(H)",
+	"descriptionId":"wolf",
+	"descriptionPrefix":"This ship has been given Hegemony markings and extensive Systems modifications to make it fighter bay compliant.",
+	"tags":["heg_aux_bp"],
+	"tech":"Hegemony",
+	"spriteName":"graphics/ships/wolf/wolf_hegemony.png",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":[],
+	"builtInWeapons":{
+    },
+	"weaponSlotChanges":{
+		"WS 001":{
+		  "type": "UNIVERSAL",
+		  "size": "MEDIUM"
+		},
+		"WS 002":{
+		  "type": "UNIVERSAL",
+		  "size": "MEDIUM"
+		},
+		"WS 003":{
+		  "type": "UNIVERSAL",
+		  "size": "MEDIUM"
+		},
+		"WS 004":{
+		  "type": "UNIVERSAL",
+		  "size": "MEDIUM"
+		},
+		"WS 005":{
+		  "type": "UNIVERSAL",
+		  "size": "MEDIUM"
+		},
+		"WS 006":{
+		  "type": "UNIVERSAL",
+		  "size": "MEDIUM"
+		},
+	},
+}

@@ -1,0 +1,19 @@
+{
+	"baseHullId":"wolf_fighter",
+	"skinHullId":"wolf_d_pirates_fighter",
+	"hullName":"Wolf (F)(P)",
+	"descriptionId":"wolf",
+	"descriptionPrefix":"This ship has been heavily modified - and poorly maintained - by its pirate crew. This ship has lost its jump capability and is now used as a fighter aboard the larger carriers.",
+	"tags":["pirate_bp"],
+	"tech":"Pirate",
+	"baseValueMult":.8,
+	"systemId":"displacer_degraded",
+	"spriteName":"graphics/ships/wolf/wolf_pirates.png",
+	"removeWeaponSlots":["WS 002", "WS 003"], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	#"builtInMods":["degraded_engines","faulty_grid"],
+	"builtInWeapons":{
+    },
+}
