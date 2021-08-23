@@ -3,7 +3,10 @@
     "fluxCapacitors": 10,
     "fluxVents": 1,
     "hullId": "kite_fighter_luddic_path",
-    "hullMods": ["unstable_injector"],
+    "hullMods": [
+        "hardened_subsystems",
+        "blast_doors"
+    ],
     "permaMods": [],
     "quality": 0.5,
     "variantId": "kite_fighter_luddic_path_Strike",

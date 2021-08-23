@@ -23,7 +23,6 @@ public class AliceFighterMod extends BaseHullMod {
 		stats.getEnergyWeaponRangeBonus()    .modifyFlat(id, RANGE_BONUS);
 
 		stats.getArmorDamageTakenMult()		 .modifyMult(id, DAMAGE_BONUS);
-		stats.getMaxCrewMod()				 .modifyFlat(id, AMMO_FROM_CARRIER);
 
 		stats.getDamageToMissiles()			.modifyMult(id, 2f);
 		stats.getDamageToFighters()			.modifyMult(id, 2f);
