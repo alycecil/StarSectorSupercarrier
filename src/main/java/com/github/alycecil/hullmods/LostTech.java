@@ -1,55 +1,44 @@
 package com.github.alycecil.hullmods;
 
-import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.*;
+import com.fs.starfarer.api.combat.FighterWingAPI;
+import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
-import com.fs.starfarer.api.util.IntervalUtil;
+import com.fs.starfarer.api.util.DynamicStatsAPI;
+import com.github.alycecil.hullmods.abstracts.FighterAction;
 
-public class LostTech extends BaseHullMod {
+import static com.github.alycecil.hullmods.helpers.StatChanges.lostTechCommon;
+
+public class LostTech extends FighterAction {
 
     public static final float DAMAGE_PENALTY = 0.50f;
-    public static final float DAMAGE_BONUS = 2.50f;
-    public static final float RATE_BONUS = 3.30f;
-    public static final float RANGE_BONUS = 60f;
     public static final float AMMO_FROM_CARRIER = 60f;
     public static final float CREW_LOSS_MULT = 0.25f;
 
     public static String MR_DATA_KEY = "core_reload_data_key_lostecha";
 
-    public static class LostTechData {
-        IntervalUtil interval = new IntervalUtil(10f, 15f);
+    @Override
+     protected String getDataKey() {
+        return LostTech.MR_DATA_KEY;
     }
 
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
+        if(stats == null) return;
         stats.getMissileAmmoBonus().modifyFlat(id, AMMO_FROM_CARRIER);
-        stats.getMissileRoFMult().modifyMult(id, RATE_BONUS);
-        stats.getMissileWeaponDamageMult().modifyMult(id, DAMAGE_PENALTY);
-        stats.getMissileWeaponRangeBonus().modifyFlat(id, RANGE_BONUS);
-        stats.getBallisticWeaponRangeBonus().modifyFlat(id, RANGE_BONUS);
-        stats.getEnergyWeaponRangeBonus().modifyFlat(id, RANGE_BONUS);
 
         stats.getArmorBonus().modifyMult(id, 2f);
-        stats.getFluxCapacity().modifyMult(id, 2f);
-        stats.getFluxDissipation().modifyMult(id, 2f);
-        stats.getCargoMod().modifyFlat(id, 2f);
-        stats.getMaxBurnLevel().modifyMult(id, 1.1f);
-        stats.getFuelUseMod().modifyMult(id, 1.1f);
-        stats.getAcceleration().modifyMult(id, 0.8f);
-        stats.getTurnAcceleration().modifyMult(id, 1.2f);
-
-        stats.getDynamic().getStat(Stats.DMOD_EFFECT_MULT).modifyMult(id, 3f);
-
         stats.getArmorDamageTakenMult().modifyMult(id, DAMAGE_PENALTY);
 
         stats.getMaxCrewMod().modifyFlat(id, AMMO_FROM_CARRIER);
 
-        stats.getDynamic().getStat(Stats.SURVEY_COST_MULT).modifyMult(id, DAMAGE_PENALTY);
-        stats.getDynamic().getStat(Stats.FIGHTER_CREW_LOSS_MULT).modifyMult(id, CREW_LOSS_MULT);
+        DynamicStatsAPI dynamic = stats.getDynamic();
+        if(dynamic == null) return;
 
-        stats.getDamageToMissiles().modifyMult(id, DAMAGE_BONUS);
-        stats.getDamageToFighters().modifyMult(id, DAMAGE_BONUS);
+        dynamic.getStat(Stats.SURVEY_COST_MULT).modifyMult(id, DAMAGE_PENALTY);
+        dynamic.getStat(Stats.FIGHTER_CREW_LOSS_MULT).modifyMult(id, CREW_LOSS_MULT);
 
+        lostTechCommon(stats, id);
     }
 
     public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
@@ -57,59 +46,14 @@ public class LostTech extends BaseHullMod {
     }
 
     @Override
-    public void advanceInCombat(ShipAPI ship, float amount) {
-        super.advanceInCombat(ship, amount);
-
-        if (!ship.isAlive()) return;
-
-        CombatEngineAPI engine = Global.getCombatEngine();
-
-        String key = MR_DATA_KEY + "_" + ship.getId();
-        LostTechData data = (LostTechData) engine.getCustomData().get(key);
-        if (data == null) {
-            data = new LostTechData();
-            engine.getCustomData().put(key, data);
-        }
-
-        data.interval.advance(amount);
-        if (data.interval.intervalElapsed()) {
-            doLoop(ship);
-        }
-
+    protected void actionForShip(ShipAPI ship) {
+        //do nothing
     }
 
-    private void doLoop(ShipAPI ship) {
-        reload(ship);
-
-        for (FighterWingAPI wing : ship.getAllWings()) {
-            for (ShipAPI wingMember : wing.getWingMembers()) {
-                if (!wingMember.isAlive()) {
-                    continue;
-                }
-                fighterLoop(wing, wingMember);
-
-            }
-        }
-    }
-
-    private void fighterLoop(FighterWingAPI wing, ShipAPI wingMember) {
-        reload(wingMember);
-    }
-
-    private void reload(ShipAPI ship) {
-        for (WeaponAPI w : ship.getAllWeapons()) {
-            if (w.usesAmmo()
-                    && w.getAmmo() < w.getMaxAmmo()
-                    && !ship.getFluxTracker().isOverloadedOrVenting()
-            ) {
-                w.setAmmo(w.getMaxAmmo());
-                int ammo = w.getMaxAmmo() - w.getAmmo();
-
-                if (ammo > 0) {
-                    ship.getFluxTracker().increaseFlux(ammo, false);
-                }
-            }
-            //w.repair();
+    @Override
+    protected void actionForFighter(ShipAPI ship, FighterWingAPI wing, ShipAPI wingMember) {
+        if(wingMember.getMaxHitpoints() > wingMember.getHitpoints() + wingMember.getHitpoints()){
+            wingMember.setHitpoints(wingMember.getMaxHitpoints()/2);
         }
     }
 

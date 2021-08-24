@@ -1,35 +1,46 @@
 package com.github.alycecil.hullmods;
 
-import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
-import com.fs.starfarer.api.util.IntervalUtil;
+import com.fs.starfarer.api.util.DynamicStatsAPI;
+import com.github.alycecil.hullmods.abstracts.FighterAction;
 
-public class FighterControl extends BaseHullMod {
+import static com.github.alycecil.hullmods.helpers.StatChanges.commonControlTeam;
+import static com.github.alycecil.hullmods.helpers.StatChanges.lostTechCommon;
+import static com.github.alycecil.hullmods.helpers.WingAI.aggressive;
+import static com.github.alycecil.hullmods.helpers.WingAI.aggressiveNearby;
+import static com.github.alycecil.hullmods.helpers.WingAI.careAboutSafety;
+
+public class FighterControl extends FighterAction {
 
 
-    public static String MR_DATA_KEY = "core_reload_data_key_fighter";
-
-    public static class FighterControlData {
-        IntervalUtil interval = new IntervalUtil(10f, 15f);
+    public static String MR_DATA_KEY = CORE_RELOAD_DATA_KEY+ "fighters";
+    @Override
+    protected String getDataKey() {
+        return MR_DATA_KEY;
     }
+
 
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getCargoMod().modifyMult(id, 0.95f);
+        if(stats == null) return;
 
-        stats.getMinCrewMod().modifyFlat(id, 10f);
-        stats.getMaxCrewMod().modifyFlat(id, 10f);
+        commonControlTeam(stats, id);
 
-        stats.getDamageToFighters().modifyMult(id, 2);
-
-        stats.getDynamic().getStat(Stats.ALL_FIGHTER_COST_MOD).modifyFlat(id, 1f);
-        stats.getDynamic().getStat(Stats.BOMBER_COST_MOD).modifyMult(id, 0.5f);
-        stats.getDynamic().getStat(Stats.FIGHTER_COST_MOD).modifyMult(id, 0.5f);
-        stats.getDynamic().getStat(Stats.INTERCEPTOR_COST_MOD).modifyMult(id, 0.5f);
+        stats.getDamageToFighters().modifyMult(id, 2f);
 
 
-        stats.getDynamic().getStat(Stats.FIGHTER_CREW_LOSS_MULT).modifyMult(id, 0.75f);
+        //seems to do nothing... stats.getDynamic().getStat(Stats.ALL_FIGHTER_COST_MOD).modifyFlat(id, -1f);
+        DynamicStatsAPI dynamic = stats.getDynamic();
+        if(dynamic == null) return;
+
+        lostTechCommon(stats, id);
+
+        dynamic.getMod(Stats.BOMBER_COST_MOD).modifyMult(id, 0.5f);
+        dynamic.getMod(Stats.FIGHTER_COST_MOD).modifyMult(id, 0.5f);
+        dynamic.getMod(Stats.INTERCEPTOR_COST_MOD).modifyMult(id, 0.5f);
+
+        dynamic.getStat(Stats.FIGHTER_CREW_LOSS_MULT).modifyMult(id, 0.75f);
     }
 
     @Override
@@ -37,47 +48,9 @@ public class FighterControl extends BaseHullMod {
         return true;
     }
 
-    public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
-        return null;
-    }
-
     @Override
-    public void advanceInCombat(ShipAPI ship, float amount) {
-        super.advanceInCombat(ship, amount);
-
-        if (!ship.isAlive()) return;
-
-        CombatEngineAPI engine = Global.getCombatEngine();
-
-        String key = MR_DATA_KEY + "_" + ship.getId();
-        FighterControlData data = (FighterControlData) engine.getCustomData().get(key);
-        if (data == null) {
-            data = new FighterControlData();
-            engine.getCustomData().put(key, data);
-        }
-
-        data.interval.advance(amount);
-        if (data.interval.intervalElapsed()) {
-            doLoop(ship);
-        }
-
-    }
-
-    private void doLoop(ShipAPI ship) {
-        for (FighterWingAPI wing : ship.getAllWings()) {
-            for (ShipAPI wingMember : wing.getWingMembers()) {
-                if (!wingMember.isAlive()) {
-                    continue;
-                }
-                fighterLoop(ship, wing, wingMember);
-
-            }
-        }
-    }
-
-    private void fighterLoop(ShipAPI ship, FighterWingAPI wing, ShipAPI wingMember) {
+    protected void actionForFighter(ShipAPI ship, FighterWingAPI wing, ShipAPI wingMember) {
         boolean motherShipHullDamage = ship.getHullLevel() < Math.max(ship.getHullLevelAtDeployment() * 0.75f, 0.65f);
-
 
         if (wing.getRole() != null) {
             switch (wing.getRole()) {
@@ -100,61 +73,8 @@ public class FighterControl extends BaseHullMod {
         }
     }
 
-    private void aggressive(FighterWingAPI wing, ShipAPI wingMember, boolean motherShipHullDamage, float ratio) {
-        if (wing.isReturning(wingMember)) {
-            if ((motherShipHullDamage || wingMember.getHullLevel() > ratio) && wingMember.areSignificantEnemiesInRange()) {
-                wing.stopReturning(wingMember);
-            }
-        } else if (motherShipHullDamage || wingMember.getHullLevel() > ratio) {
-            if(wingMember.areSignificantEnemiesInRange()) {
-                wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 10f);
-            }else if(wingMember.areAnyEnemiesInRange()){
-                wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 4f);
-            }else{
-                wingMember.getAIFlags().removeFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON);
-                wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.SAFE_VENT, 4f);
-            }
-        }else{
-            wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 10f);
-            wing.orderReturn(wingMember);
-        }
-    }
-
-    private void aggressiveNearby(FighterWingAPI wing, ShipAPI wingMember, boolean motherShipHullDamage, float ratio) {
-        if (wing.isReturning(wingMember)) {
-            if ((motherShipHullDamage || wingMember.getHullLevel() > ratio) && wingMember.areSignificantEnemiesInRange()) {
-                wing.stopReturning(wingMember);
-            }
-        } else if (motherShipHullDamage || wingMember.getHullLevel() > ratio) {
-            if(wingMember.areSignificantEnemiesInRange()) {
-                wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 10f);
-            }else if(wingMember.areAnyEnemiesInRange()){
-                wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 4f);
-            }else{
-                wingMember.getAIFlags().removeFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON);
-                wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.SAFE_VENT, 4f);
-
-                wing.orderReturn(wingMember);
-            }
-        }else{
-            wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 10f);
-            wing.orderReturn(wingMember);
-        }
-    }
-
-    private void careAboutSafety(FighterWingAPI wing, ShipAPI wingMember, boolean motherShipHullDamage) {
-        if (wing.isReturning(wingMember)) {
-            if ((motherShipHullDamage || wingMember.getHullLevel() > 0.75f) && wingMember.areSignificantEnemiesInRange()) {
-                wing.stopReturning(wingMember);
-            }
-        } else if (wingMember.getHullLevel() > 0.75f) {
-            if(wingMember.areSignificantEnemiesInRange()) {
-                wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 10f);
-            }
-        }else{
-            wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 10f);
-            wingMember.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.NEEDS_HELP);
-            wing.orderReturn(wingMember);
-        }
+    @Override
+    protected void actionForShip(ShipAPI ship) {
+        //do nothing
     }
 }
