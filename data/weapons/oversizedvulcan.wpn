@@ -4,9 +4,9 @@
 	"type":"BALLISTIC",
 	"size":"SMALL",
 	"displayArcRadius":250,
-	"turretSprite":"graphics/weapons/vulcan_cannon_turret_base.png",
+	"turretSprite":"graphics/weapons/oversized_vulcan_cannon_turret.png.png",
 	"turretGunSprite":"graphics/weapons/vulcan_cannon_turret_recoil.png",
-	"hardpointSprite":"graphics/weapons/vulcan_cannon_hardpoint_base.png",
+	"hardpointSprite":"graphics/weapons/oversized_vulcan_cannon_hardpoint.png",
 	"hardpointGunSprite":"graphics/weapons/vulcan_cannon_hardpoint_recoil.png",
 	"renderHints":[RENDER_BARREL_BELOW],
 	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
