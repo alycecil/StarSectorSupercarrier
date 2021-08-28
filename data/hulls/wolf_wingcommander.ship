@@ -106,7 +106,7 @@
                 0
             ],
             "mount": "TURRET",
-            "size": "LARGE",
+            "size": "SMALL",
             "type": "ENERGY"
         },
         {
@@ -118,7 +118,7 @@
                 12
             ],
             "mount": "TURRET",
-            "size": "LARGE",
+            "size": "SMALL",
             "type": "ENERGY"
         },
         {
@@ -130,7 +130,7 @@
                 -11
             ],
             "mount": "TURRET",
-            "size": "LARGE",
+            "size": "SMALL",
             "type": "ENERGY"
         },
         {
@@ -142,7 +142,7 @@
                 0
             ],
             "mount": "TURRET",
-            "size": "LARGE",
+            "size": "MEDIUM",
             "type": "ENERGY"
         },
         {
@@ -154,7 +154,7 @@
                 20
             ],
             "mount": "TURRET",
-            "size": "LARGE",
+            "size": "MEDIUM",
             "type": "MISSILE"
         },
         {
@@ -166,7 +166,7 @@
                 -19
             ],
             "mount": "TURRET",
-            "size": "LARGE",
+            "size": "MEDIUM",
             "type": "MISSILE"
         }
     ],
