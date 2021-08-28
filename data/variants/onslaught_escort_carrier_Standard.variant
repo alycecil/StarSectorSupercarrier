@@ -1,0 +1,101 @@
+{
+  "variantId": "onslaught_escort_carrier_Standard",
+  "hullId": "onslaught_escort_carrier",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 40,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "insulatedengine",
+    "armoredweapons",
+    "dedicated_targeting_core",
+    "auxiliarythrusters",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "devastator",
+        "WS 017": "devastator",
+        "WS 018": "devastator",
+        "WS 020": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "vulcan",
+        "WS 004": "vulcan",
+        "WS 005": "vulcan",
+        "WS 006": "vulcan",
+        "WS 008": "vulcan",
+        "WS 009": "vulcan",
+        "WS0029": "vulcan",
+        "WS0030": "vulcan",
+        "WS0033": "vulcan",
+        "WS0034": "vulcan",
+        "WS0036": "vulcan",
+        "WS0042": "vulcan",
+        "WS0043": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "oversizedvulcan",
+        "WS0002": "oversizedvulcan",
+        "WS0031": "oversizedvulcan",
+        "WS0032": "oversizedvulcan",
+        "WS0037": "oversizedvulcan",
+        "WS0038": "oversizedvulcan",
+        "WS0039": "oversizedvulcan",
+        "WS0040": "oversizedvulcan",
+        "WS0041": "oversizedvulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "flak",
+        "WS 003": "flak",
+        "WS 007": "dualflak",
+        "WS 010": "flak",
+        "WS 011": "flak",
+        "WS 012": "flak",
+        "WS 013": "flak",
+        "WS 014": "flak",
+        "WS 015": "flak",
+        "WS 019": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 021": "pilum",
+        "WS 022": "pilum",
+        "WS 023": "pilum",
+        "WS 024": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

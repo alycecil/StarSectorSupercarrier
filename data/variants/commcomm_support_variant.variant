@@ -1,0 +1,63 @@
+{
+  "variantId": "commcomm_support_variant",
+  "hullId": "commcomm_support",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 36,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "hiressensors",
+    "turretgyros",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "squall",
+        "WS0002": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "dualflak",
+        "WS0004": "dualflak",
+        "WS0005": "dualflak",
+        "WS0006": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "devastator",
+        "WS0008": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "oversizedvulcan",
+        "WS0011": "oversizedvulcan",
+        "WS0012": "oversizedvulcan",
+        "WS0013": "oversizedvulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -24,7 +24,7 @@
             }
         },
         {
-            "autofire": false,
+            "autofire": true,
             "mode": "ALTERNATING",
             "weapons": {
                 "WS 021": "annihilatorpod",

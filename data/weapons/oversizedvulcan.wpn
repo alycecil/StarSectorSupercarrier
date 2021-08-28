@@ -4,24 +4,24 @@
 	"type":"BALLISTIC",
 	"size":"SMALL",
 	"displayArcRadius":250,
-	"turretSprite":"graphics/weapons/oversized_vulcan_cannon_turret.png.png",
+	"turretSprite":"graphics/weapons/oversized_vulcan_cannon_turret.png",
 	"turretGunSprite":"graphics/weapons/vulcan_cannon_turret_recoil.png",
 	"hardpointSprite":"graphics/weapons/oversized_vulcan_cannon_hardpoint.png",
 	"hardpointGunSprite":"graphics/weapons/vulcan_cannon_hardpoint_recoil.png",
 	"renderHints":[RENDER_BARREL_BELOW],
 	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
-	"turretOffsets":[10, -2, 10, 2],
-	"turretAngleOffsets":[0, 0],
-	"hardpointOffsets":[15, -2, 15, 2],
-	"hardpointAngleOffsets":[0, 0],
-	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"turretOffsets":[10, -4, 10, 4, 10, -2, 10, 2],
+	"turretAngleOffsets":[0, 0, 0, 0],
+	"hardpointOffsets":[15, -4, 15, 4,15, -2, 15, 2],
+	"hardpointAngleOffsets":[0, 0, 0, 0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"MUZZLE_FLASH",
 	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
 					   "spread":6.0,
 					   "particleSizeMin":6.0,
-					   "particleSizeRange":8.0,
-					   "particleDuration":0.15,
-					   "particleCount":7,
+					   "particleSizeRange":11.0,
+					   "particleDuration":0.20,
+					   "particleCount":9,
 					   "particleColor":[255,240,165,200]},
 	"projectileSpecId":"vulcan_shot",  # projectile that will be fired
 	#"fireSoundOne":"vulcan_cannon_intro",

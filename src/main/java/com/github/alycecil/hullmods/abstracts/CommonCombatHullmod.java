@@ -21,7 +21,7 @@ public abstract class CommonCombatHullmod extends BaseHullMod {
         String key = getDataKey() + "_" + ship.getId();
         LostTechData data = (LostTechData) engine.getCustomData().get(key);
         if (data == null) {
-            data = new LostTechData();
+            data = buildData();
             engine.getCustomData().put(key, data);
         }
 
@@ -30,6 +30,10 @@ public abstract class CommonCombatHullmod extends BaseHullMod {
             doLoop(ship);
         }
 
+    }
+
+    public LostTechData buildData() {
+        return new LostTechData();
     }
 
     protected abstract String getDataKey();

@@ -13,11 +13,14 @@
   "viewOffset": 200,
   "builtInMods": [
     "hbi",
-    "fourteenth"
+    "fourteenth",
+    "alice_losttech_autoloader",
+    "alice_losttech_hot_resupply",
+    "alice_fighter_control"
   ],
   "builtInWings": [
-    "wolf_hegemony_fighter_PD_wing",
-    "wolf_hegemony_fighter_PD_wing",
+    "wolf_hegemony_fighter_Bomber_wing",
+    "wolf_hegemony_fighter_Bomber_wing",
     "wolf_hegemony_fighter_Bomber_wing",
     "wolf_hegemony_fighter_CS_wing",
     "kite_Interceptor_wing",
