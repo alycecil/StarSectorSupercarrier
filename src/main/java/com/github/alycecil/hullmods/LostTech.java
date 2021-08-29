@@ -12,7 +12,7 @@ import static com.github.alycecil.hullmods.helpers.StatChanges.lostTechCommon;
 public class LostTech extends FighterAction {
 
     public static final float DAMAGE_PENALTY = 0.50f;
-    public static final float AMMO_FROM_CARRIER = 60f;
+    public static final float AMMO_FROM_CARRIER = 2f;
     public static final float CREW_LOSS_MULT = 0.25f;
 
     public static String MR_DATA_KEY = "core_reload_data_key_lostecha";

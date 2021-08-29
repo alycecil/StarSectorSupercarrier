@@ -37,12 +37,5 @@ public class SensorDishView extends BaseHullMod {
 
         //game view
         stats.getDynamic().getMod(Stats.HRS_SENSOR_RANGE_MOD).modifyFlat(id, 2000f,"Over-sized Scanning Array");
-
-
-
-
-
     }
-
-
 }

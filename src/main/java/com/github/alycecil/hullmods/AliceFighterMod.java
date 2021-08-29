@@ -10,7 +10,7 @@ public class AliceFighterMod extends BaseHullMod {
 	public static final float DAMAGE_BONUS 		= 0.40f;
 	public static final float RATE_BONUS 		= 3.30f;
 	public static final float RANGE_BONUS 		= 160f;
-	public static final float AMMO_FROM_CARRIER = 60f;
+	public static final float AMMO_FROM_CARRIER = 2f;
 	
 	@Override
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {

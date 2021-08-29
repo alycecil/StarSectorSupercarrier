@@ -6,6 +6,7 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.util.DynamicStatsAPI;
 import com.github.alycecil.hullmods.abstracts.CommonCombatHullmod;
+import com.github.alycecil.hullmods.data.LostTechData;
 
 import java.util.Set;
 
@@ -17,7 +18,7 @@ public class FireControlLostTech extends CommonCombatHullmod {
     public static final String KEY = CORE_RELOAD_DATA_KEY + "fire_control";
     public static final float ROF_BONUS = 2f;
     public static final float DAMAGE_REDUCTION = 0.85f;
-    public static final int AMMO_BONUS = 10;
+    public static final int AMMO_BONUS = 1;
 
     @Override
     protected String getDataKey() {
@@ -47,6 +48,10 @@ public class FireControlLostTech extends CommonCombatHullmod {
         stats.getEnergyWeaponDamageMult().modifyMult(id, DAMAGE_REDUCTION);
         stats.getEnergyWeaponRangeBonus().modifyFlat(id, 500f);
 
+        stats.getMissileWeaponFluxCostMod().modifyMult(id, 1.2f);
+        stats.getEnergyWeaponFluxCostMod().modifyMult(id, 1.2f);
+        stats.getBeamWeaponFluxCostMult().modifyMult(id, 1.2f);
+
 
         DynamicStatsAPI dynamic = stats.getDynamic();
         if (dynamic == null) return;
@@ -69,5 +74,10 @@ public class FireControlLostTech extends CommonCombatHullmod {
                     break;
             }
         }
+    }
+
+    @Override
+    public LostTechData buildData() {
+        return new LostTechData(30f, 120f);
     }
 }
