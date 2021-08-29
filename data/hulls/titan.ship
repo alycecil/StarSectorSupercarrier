@@ -17,10 +17,8 @@
     "alice_losttech",
     "alice_losttech_autoloader",
     "alice_losttech_fire_control",
-    "alice_losttech_hot_resupply",
     "alice_losttech_pd",
     "alice_losttech_shields",
-    "alice_losttech_wiring",
     "supercomputer",
     "blast_doors",
     "auxiliary_fuel_tanks",
@@ -967,6 +965,42 @@
         -171.5, 250,
         -170.5, 250
       ]
+    },
+    {
+      "id": "MOD02",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [365.5, -87.5]
+    },
+    {
+      "id": "MOD01",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [365.5, 87.5]
+    },
+    {
+      "id": "MOD03",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-135, 88]
+    },
+    {
+      "id": "MOD04",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-135, -88]
     }
   ],
   "engineSlots": [

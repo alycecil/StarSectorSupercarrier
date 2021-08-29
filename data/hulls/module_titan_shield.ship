@@ -1,0 +1,57 @@
+{
+  "hullName": "Shield Module",
+  "hullId": "module_titan_shield",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stations/module_small_shield1.png",
+  "style": "HIGH_TECH",
+  "height": 80,
+  "width": 38,
+  "center": [19, 40],
+  "collisionRadius": 300,
+  "shieldCenter": [0, 1.5],
+  "shieldRadius": 326,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -137,
+    0
+  ],
+  "builtInMods": [
+    "alice_losttech_shields",
+    "shield_always_on",
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sensordish",
+    "WS0002": "sensordish"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 94,
+      "angle": 90,
+      "locations": [22, 14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 94,
+      "angle": -90,
+      "locations": [22, -14]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -37.5, 8,
+    -20, 19,
+    39.5, 17.5,
+    39.5, -17.5,
+    -20, -19,
+    -37.5, -8
+  ]
+}

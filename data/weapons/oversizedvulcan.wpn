@@ -21,7 +21,7 @@
 					   "particleSizeMin":6.0,
 					   "particleSizeRange":11.0,
 					   "particleDuration":0.20,
-					   "particleCount":9,
+					   "particleCount":8,
 					   "particleColor":[255,240,165,200]},
 	"projectileSpecId":"vulcan_shot",  # projectile that will be fired
 	#"fireSoundOne":"vulcan_cannon_intro",

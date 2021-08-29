@@ -10,23 +10,19 @@
   "hullMods": [],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "tpc",
-        "WS0002": "tpc",
-        "WS0003": "arbalest",
-        "WS0004": "railgun",
-        "WS0005": "railgun",
-        "WS0006": "railgun",
-        "WS0007": "dualflak",
-        "WS0008": "dualflak",
-        "WS0009": "oversizedvulcan",
-        "WS0010": "oversizedvulcan",
-        "WS0011": "oversizedvulcan",
-        "WS0012": "oversizedvulcan",
         "WS0013": "gauss",
         "WS0014": "gauss",
+        "WS0051": "gauss",
+        "WS0052": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0015": "tachyonlance",
         "WS0016": "tachyonlance",
         "WS0017": "tachyonlance",
@@ -34,15 +30,23 @@
         "WS0019": "tachyonlance",
         "WS0020": "tachyonlance",
         "WS0021": "tachyonlance",
-        "WS0022": "tachyonlance",
-        "WS0023": "guardian",
-        "WS0024": "guardian",
-        "WS0027": "dualflak",
-        "WS0028": "dualflak",
-        "WS0029": "dualflak",
-        "WS0030": "dualflak",
-        "WS0031": "dualflak",
-        "WS0032": "dualflak",
+        "WS0022": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0063": "mjolnir",
+        "WS0064": "mjolnir",
+        "WS0074": "mjolnir",
+        "WS0075": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0033": "cyclone",
         "WS0034": "cyclone",
         "WS0035": "cyclone",
@@ -57,11 +61,39 @@
         "WS0044": "cyclone",
         "WS0045": "cyclone",
         "WS0047": "cyclone",
-        "WS0048": "cyclone",
+        "WS0048": "cyclone"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc",
+        "WS0002": "tpc",
+        "WS0003": "arbalest",
+        "WS0004": "railgun",
+        "WS0005": "railgun",
+        "WS0006": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "oversizedvulcan",
+        "WS0010": "oversizedvulcan",
+        "WS0011": "oversizedvulcan",
+        "WS0012": "oversizedvulcan",
+        "WS0023": "guardian",
+        "WS0024": "guardian",
+        "WS0027": "dualflak",
+        "WS0028": "dualflak",
+        "WS0029": "dualflak",
+        "WS0030": "dualflak",
+        "WS0031": "dualflak",
+        "WS0032": "dualflak",
         "WS0049": "devastator",
         "WS0050": "devastator",
-        "WS0051": "gauss",
-        "WS0052": "gauss",
         "WS0053": "oversizedvulcan",
         "WS0054": "oversizedvulcan",
         "WS0055": "oversizedvulcan",
@@ -72,8 +104,6 @@
         "WS0060": "oversizedvulcan",
         "WS0061": "oversizedvulcan",
         "WS0062": "oversizedvulcan",
-        "WS0063": "mjolnir",
-        "WS0064": "mjolnir",
         "WS0065": "oversizedvulcan",
         "WS0066": "oversizedvulcan",
         "WS0067": "oversizedvulcan",
@@ -83,11 +113,24 @@
         "WS0071": "oversizedvulcan",
         "WS0072": "oversizedvulcan",
         "WS0073": "oversizedvulcan",
-        "WS0074": "mjolnir",
-        "WS0075": "mjolnir"
+        "WS0007": "dualflak",
+        "WS0008": "dualflak"
       }
     }
   ],
-  "modules": [],
+  "modules": [
+    {
+      "MOD02": "module_titan_shield_variant"
+    },
+    {
+      "MOD01": "module_titan_shield_variant"
+    },
+    {
+      "MOD03": "module_titan_shield_xl_variant"
+    },
+    {
+      "MOD04": "module_titan_shield_xl_variant"
+    }
+  ],
   "wings": []
 }
