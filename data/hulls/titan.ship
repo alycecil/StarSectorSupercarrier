@@ -25,7 +25,6 @@
     "autorepair",
     "armoredweapons",
     "do_not_back_off",
-    "do_not_fire_through",
     "chassis_storage",
     "alice_commarray"
   ],
@@ -272,24 +271,6 @@
       "arc": 157,
       "angle": 90,
       "locations": [332, 154.5]
-    },
-    {
-      "id": "WS0023",
-      "size": "LARGE",
-      "type": "UNIVERSAL",
-      "mount": "TURRET",
-      "arc": 157,
-      "angle": 90,
-      "locations": [-364.5, 215]
-    },
-    {
-      "id": "WS0024",
-      "size": "LARGE",
-      "type": "UNIVERSAL",
-      "mount": "TURRET",
-      "arc": 157,
-      "angle": -90,
-      "locations": [-364.5, -215]
     },
     {
       "id": "WS0025",
@@ -696,24 +677,6 @@
       "locations": [12, -127.5]
     },
     {
-      "id": "WS0063",
-      "size": "LARGE",
-      "type": "UNIVERSAL",
-      "mount": "TURRET",
-      "arc": 157,
-      "angle": 162,
-      "locations": [-365.5, -175.5]
-    },
-    {
-      "id": "WS0064",
-      "size": "LARGE",
-      "type": "UNIVERSAL",
-      "mount": "TURRET",
-      "arc": 157,
-      "angle": -162,
-      "locations": [-365.5, 175.5]
-    },
-    {
       "id": "WS0065",
       "size": "SMALL",
       "type": "BUILT_IN",
@@ -793,24 +756,6 @@
       "arc": 257,
       "angle": 178.5,
       "locations": [-528.5, 2]
-    },
-    {
-      "id": "WS0074",
-      "size": "LARGE",
-      "type": "UNIVERSAL",
-      "mount": "TURRET",
-      "arc": 104,
-      "angle": -128,
-      "locations": [-444.5, -39]
-    },
-    {
-      "id": "WS0075",
-      "size": "LARGE",
-      "type": "UNIVERSAL",
-      "mount": "TURRET",
-      "arc": 104,
-      "angle": 128,
-      "locations": [-444.5, 39]
     },
     {
       "id": "WS0076",
@@ -1003,6 +948,33 @@
       "arc": 1,
       "angle": 90,
       "locations": [-135, -88]
+    },
+    {
+      "id": "MOD005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 90,
+      "locations": [-764.5, -56]
+    },
+    {
+      "id": "MOD006",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": -90,
+      "locations": [-764.5, 56]
+    },
+    {
+      "id": "MOD07",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 1,
+      "angle": 0,
+      "locations": [-463, -5.5]
     }
   ],
   "engineSlots": [

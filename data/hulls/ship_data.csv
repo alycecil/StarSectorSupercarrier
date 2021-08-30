@@ -12,4 +12,4 @@ Battlestar Galatia,titan,Battlestar Galatia,Low Tech,reservewing,600,450000,"275
 ,module_titan_shield_xl,Shield Module,,fortressshield,1,7500,1000,15000,25000,400,0,,0,0,0,3,6,200,FRONT,,45,0.4,0.6,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,2,,72072
 Battlestar Corvus,titan2,Battlestar Corvus-Class,Low Tech,fortressshield,600,450000,"275
 ",170000,150000,8000,1200,8,6,1,0.1,3,0.65,338000,FRONT,,30,1.5,1.62,,,60000,450000,30000,18000,180,100,3,25450000,1,3,940,0.00025,600,4000,,,,,,,"SHIP_WITH_MODULES,COMBAT,CARRIER","rare_bp, merc",0.0001,0.4,5,10,,71207
-,module_titan_rear,Titan Module,,fortressshield,1,7000,1250,7500,12500,500,0,4,0,0,0,10,10,2500,NONE,,0,1,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,71208
+,module_titan_rear,Titan Module,,fortressshield,1,80000,500,17500,12500,1500,0,4,0,0,0,10,10,2500,NONE,,0,1,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX",,,0.5,2,4,,71208

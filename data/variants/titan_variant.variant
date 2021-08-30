@@ -16,7 +16,9 @@
         "WS0013": "mjolnir",
         "WS0014": "mjolnir",
         "WS0051": "mjolnir",
-        "WS0052": "mjolnir"
+        "WS0052": "mjolnir",
+        "WS0078": "oversizedvulcan",
+        "WS0079": "oversizedvulcan"
       }
     },
     {
@@ -36,12 +38,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0063": "mjolnir",
-        "WS0064": "mjolnir",
-        "WS0074": "mjolnir",
-        "WS0075": "mjolnir"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
@@ -80,12 +77,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0007": "dualflak",
+        "WS0008": "dualflak",
         "WS0009": "oversizedvulcan",
         "WS0010": "oversizedvulcan",
         "WS0011": "oversizedvulcan",
         "WS0012": "oversizedvulcan",
-        "WS0023": "devastator",
-        "WS0024": "devastator",
         "WS0027": "volleyoversizedvulcan",
         "WS0028": "volleyoversizedvulcan",
         "WS0029": "volleyoversizedvulcan",
@@ -112,9 +109,7 @@
         "WS0070": "oversizedvulcan",
         "WS0071": "oversizedvulcan",
         "WS0072": "oversizedvulcan",
-        "WS0073": "oversizedvulcan",
-        "WS0007": "volleyoversizedvulcan",
-        "WS0008": "volleyoversizedvulcan"
+        "WS0073": "oversizedvulcan"
       }
     }
   ],
@@ -130,6 +125,15 @@
     },
     {
       "MOD04": "module_titan_shield_xl_variant"
+    },
+    {
+      "MOD006": "module_titan_shield_variant"
+    },
+    {
+      "MOD005": "module_titan_shield_variant"
+    },
+    {
+      "MOD07": "module_titan_rear_variant"
     }
   ],
   "wings": []
