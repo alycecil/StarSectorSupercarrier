@@ -1,0 +1,15 @@
+{
+	"carrierSmall": {
+		"wolf_wingcommander_PD": 5
+	},
+	"carrierCapital": {
+		"commcomm_support_variant": 1,
+		"onslaught_escort_carrier_Standard": 1,
+		"onslaught_carrier_Standard": 1,
+		"titan_variant": 1
+	},
+	"combatCapital": {
+		"titan_support": 1,
+		"commcomm_support_PD": 1
+	}
+}

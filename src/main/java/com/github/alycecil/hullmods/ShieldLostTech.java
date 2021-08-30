@@ -54,8 +54,8 @@ public class ShieldLostTech extends CommonCombatHullmod {
 
         if (ship.areSignificantEnemiesInRange()
         ) {
-            if (!ship.getFluxTracker().isOverloadedOrVenting() && ship.getFluxTracker().getFluxLevel() < 0.7f) {
-                shield.toggleOn();
+            if (!ship.getFluxTracker().isOverloadedOrVenting() && ship.getFluxTracker().getFluxLevel() < 0.5f) {
+                //shield.toggleOn();
                 ship.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.KEEP_SHIELDS_ON, 1f);
             }
         } else {

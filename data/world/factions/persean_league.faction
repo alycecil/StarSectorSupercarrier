@@ -1,0 +1,19 @@
+{
+    "hullFrequency":{
+        "hulls":{"commcomm_support":0.2},
+    },
+    "knownShips":{
+        "hulls":["commcomm_support"],
+    },
+    "knownFighters":{
+        "fighters":[
+            "kite_Standard_wing",
+            "kite_Support_wing",
+            "wolf_d_fighter_Attack_wing",
+            "wolf_d_fighter_pirates_Attack_wing",
+            "wolf_fighter_CS_wing",
+            "wolf_fighter_PD_wing",
+            "wolf_fighter_Strike_wing"
+        ],
+    },
+}

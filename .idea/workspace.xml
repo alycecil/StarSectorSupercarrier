@@ -9,15 +9,34 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/FireControlLostTech.java" line="50" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034272ba-fa85-4d15-ae20-d39e2a708024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/hulls/module_titan_shield.ship" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/hulls/module_titan_shield_xl.ship" afterDir="false" />
+    <list default="true" id="034272ba-fa85-4d15-ae20-d39e2a708024" name="Default Changelist" comment="Add shield generators to the titan">
+      <change afterPath="$PROJECT_DIR$/data/campaign/sim_opponents.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hulls/module_titan_rear.ship" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/hulls/titan2.ship" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/variants/commcomm_support_PD.variant" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/variants/module_titan_rear_variant.variant" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/variants/titan2_support.variant" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/variants/titan_support.variant" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/weapons/volleyoversizedvulcan.wpn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/default_ship_roles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/hegemony.faction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/independent.faction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/luddic_church.faction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/luddic_path.faction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/persean_league.faction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/pirates.faction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/world/factions/tritachyon.faction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/ships/TitanCorvus.xcf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/ships/TitanCorvusRear.xcf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/hulls/ship_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hulls/ship_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/hulls/titan.ship" beforeDir="false" afterPath="$PROJECT_DIR$/data/hulls/titan.ship" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hulls/wing_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hulls/wing_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/variants/titan_variant.variant" beforeDir="false" afterPath="$PROJECT_DIR$/data/variants/titan_variant.variant" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/weapons/oversizedvulcan.wpn" beforeDir="false" afterPath="$PROJECT_DIR$/data/weapons/oversizedvulcan.wpn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/weapons/weapon_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/weapons/weapon_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jars/Supercarrier.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jars/Supercarrier.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/production/Supercarrier/com/github/alycecil/hullmods/ShieldLostTech.class" beforeDir="false" afterPath="$PROJECT_DIR$/jars/production/Supercarrier/com/github/alycecil/hullmods/ShieldLostTech.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/ShieldLostTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/ShieldLostTech.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +108,53 @@
             </state>
           </provider>
           <provider editor-type-id="csv-text-editor">
-            <state relative-caret-position="340">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="442">
+              <caret line="14" column="190" selection-start-line="14" selection-start-column="190" selection-end-line="14" selection-end-column="190" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/variants/titan_support.variant">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1003">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/variants/titan2_support.variant">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/variants/module_titan_rear_variant.variant">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/variants/commcomm_support_PD.variant">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_rear.ship">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="29" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -98,67 +162,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/hulls/titan.ship">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4600">
-              <caret line="230" column="22" lean-forward="true" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
+            <state relative-caret-position="-544">
+              <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/variants/module_titan_shield_variant.variant">
+        <entry file="file://$PROJECT_DIR$/data/hulls/titan2.ship">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/ShieldLostTech.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/combat/FluxTrackerAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/variants/module_titan_shield_xl_variant.variant">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_shield.ship">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/hulls/onslaught_carrier.ship">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5831">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="-13416">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -166,17 +180,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/variants/titan_variant.variant">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="527">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_shield_xl.ship">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <entry file="file://$PROJECT_DIR$/data/hulls/wing_data.csv">
+          <provider selected="true" editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+              <column index="0" width="100" />
+              <column index="1" width="100" />
+              <column index="2" width="100" />
+              <column index="3" width="100" />
+              <column index="4" width="100" />
+              <column index="5" width="100" />
+              <column index="6" width="100" />
+              <column index="7" width="100" />
+              <column index="8" width="100" />
+              <column index="9" width="100" />
+              <column index="10" width="100" />
+              <column index="11" width="100" />
+              <column index="12" width="100" />
+              <column index="13" width="100" />
+              <column index="14" width="100" />
+              <column index="15" width="100" />
+              <column index="16" width="100" />
+              <column index="17" width="100" />
+              <column index="18" width="100" />
+              <column index="19" width="100" />
+              <column index="20" width="100" />
+              <column index="21" width="100" />
+              <column index="22" width="100" />
+              <column index="23" width="100" />
+              <column index="24" width="100" />
+              <column index="25" width="100" />
+              <column index="26" width="100" />
+              <column index="27" width="100" />
+              <column index="28" width="100" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -192,13 +239,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>UnstableInjector</find>
-      <find>Unstable</find>
-      <find>wingMember.getShipAI().getAIFlags()</find>
-      <find>stats.getMinCrewMod().modifyFlat(id, 10f);</find>
-      <find>PD_IGNORES_FLARES</find>
-      <find>A command suite and a re-enforced frame coated with armor that would make the XIVth Fleet jealous; not to mention the systems overhaul.</find>
-      <find>bulk_missile_storage</find>
       <find>phase</find>
       <find>o</find>
       <find>high, rare_bp</find>
@@ -222,6 +262,13 @@
       <find>cecil</find>
       <find>white</find>
       <find>SR</find>
+      <find>dualflak</find>
+      <find>onslaught_escort_carrier_Standard</find>
+      <find>volleyoversizedvulcan</find>
+      <find>tachyonlance</find>
+      <find>rear</find>
+      <find>station</find>
+      <find>mjolnir</find>
     </findStrings>
     <replaceStrings>
       <replace>plg</replace>
@@ -238,6 +285,9 @@
       <replace>amber</replace>
       <replace>DECO0023</replace>
       <replace>red</replace>
+      <replace>volleyoversizedvulcan</replace>
+      <replace>mjolnir</replace>
+      <replace>devastator</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -246,28 +296,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/LostTechData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/CommonCombatHullmod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/abstracts/FighterAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/helpers/WingAI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/HotRessupply.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/helpers/ShipActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/WiringLostTech.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/helpers/StatChanges.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/FighterControl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/AutoLoaderLostTech.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/PDLostTech.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/HotResupply.java" />
-        <option value="$PROJECT_DIR$/../../starsector-core/data/hullmods/FluxDistributor.java" />
-        <option value="$PROJECT_DIR$/../../starsector-core/data/hullmods/SafetyOverrides.java" />
-        <option value="$PROJECT_DIR$/data/hulls/wolf_wingcommander.ship" />
-        <option value="$PROJECT_DIR$/data/hulls/wolf_fighter.ship" />
-        <option value="$PROJECT_DIR$/data/strings/descriptions.csv" />
-        <option value="$PROJECT_DIR$/data/hulls/kite_fighter_2.ship" />
-        <option value="$PROJECT_DIR$/data/variants/kite_fighter_Starting.variant" />
         <option value="$PROJECT_DIR$/data/variants/kite_fighter_2_Starting.variant" />
         <option value="$PROJECT_DIR$/data/variants/onslaught_carrier.ship" />
-        <option value="$PROJECT_DIR$/data/hulls/wing_data.csv" />
         <option value="$PROJECT_DIR$/data/hulls/comcomm.ship" />
         <option value="$PROJECT_DIR$/data/weapons/deco_blinker_white.wpn" />
         <option value="$PROJECT_DIR$/data/weapons/deco_blinker_amber.wpn" />
@@ -275,7 +305,6 @@
         <option value="$PROJECT_DIR$/data/variants/commcomm_support_variant.variant" />
         <option value="$PROJECT_DIR$/data/hulls/onslaught_carrier.ship" />
         <option value="$PROJECT_DIR$/data/hulls/onslaught_escort_carrier.ship" />
-        <option value="$PROJECT_DIR$/data/hullmods/hull_mods.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/data/LostTechData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/abstracts/CommonCombatHullmod.java" />
         <option value="$PROJECT_DIR$/data/hulls/commcomm_support.ship" />
@@ -287,16 +316,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/LostTech.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/AliceFighterMod.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/FireControlLostTech.java" />
-        <option value="$PROJECT_DIR$/data/weapons/weapon_data.csv" />
-        <option value="$PROJECT_DIR$/data/hulls/titan.ship" />
         <option value="$PROJECT_DIR$/data/variants/module_titan_shield_variant.variant" />
         <option value="$PROJECT_DIR$/data/variants/module_titan_shield_xl_variant.variant" />
         <option value="$PROJECT_DIR$/data/weapons/oversizedvulcan.wpn" />
-        <option value="$PROJECT_DIR$/data/variants/titan_variant.variant" />
         <option value="$PROJECT_DIR$/data/hulls/module_titan_shield.ship" />
-        <option value="$PROJECT_DIR$/data/hulls/ship_data.csv" />
         <option value="$PROJECT_DIR$/data/hulls/module_titan_shield_xl.ship" />
+        <option value="$PROJECT_DIR$/data/campaign/sim_opponents.csv" />
+        <option value="$PROJECT_DIR$/data/weapons/volleyoversizedvulcan.wpn" />
+        <option value="$PROJECT_DIR$/data/variants/commcomm_support_PD.variant" />
+        <option value="$PROJECT_DIR$/data/variants/titan_support.variant" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/ShieldLostTech.java" />
+        <option value="$PROJECT_DIR$/data/world/factions/default_ship_roles.json" />
+        <option value="$PROJECT_DIR$/data/world/factions/luddic_church.faction" />
+        <option value="$PROJECT_DIR$/data/world/factions/persean_league.faction" />
+        <option value="$PROJECT_DIR$/data/hullmods/hull_mods.csv" />
+        <option value="$PROJECT_DIR$/data/world/factions/pirates.faction" />
+        <option value="$PROJECT_DIR$/data/world/factions/luddic_path.faction" />
+        <option value="$PROJECT_DIR$/data/weapons/weapon_data.csv" />
+        <option value="$PROJECT_DIR$/data/world/factions/tritachyon.faction" />
+        <option value="$PROJECT_DIR$/data/world/factions/independent.faction" />
+        <option value="$PROJECT_DIR$/data/world/factions/hegemony.faction" />
+        <option value="$PROJECT_DIR$/data/hulls/wing_data.csv" />
+        <option value="$PROJECT_DIR$/data/hulls/corvus.ship" />
+        <option value="$PROJECT_DIR$/data/variants/titan_variant.variant" />
+        <option value="$PROJECT_DIR$/data/hulls/titan_corvus.ship" />
+        <option value="$PROJECT_DIR$/data/variants/titan_corvus_variant.variant" />
+        <option value="$PROJECT_DIR$/data/variants/module_titan_rear_variant.variant" />
+        <option value="$PROJECT_DIR$/data/hulls/module_titan_rear.ship" />
+        <option value="$PROJECT_DIR$/data/variants/titan2_support.variant" />
+        <option value="$PROJECT_DIR$/data/hulls/titan.ship" />
+        <option value="$PROJECT_DIR$/data/hulls/titan2.ship" />
+        <option value="$PROJECT_DIR$/data/hulls/ship_data.csv" />
       </list>
     </option>
   </component>
@@ -307,9 +357,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="3722" />
+    <option name="x" value="-192" />
+    <option name="y" value="12" />
+    <option name="width" value="2388" />
     <option name="height" value="2186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -353,6 +403,19 @@
               <item name="Supercarrier" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="weapons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Supercarrier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Supercarrier" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="world" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Supercarrier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Supercarrier" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="world" type="462c0819:PsiDirectoryNode" />
+              <item name="factions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Supercarrier" type="b2602c69:ProjectViewProjectNode" />
@@ -442,10 +505,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="hull&#9;FILE&#9;file://C:/Program Files (x86)/Fractal Softworks/Starsector/mods/Supercarrier/data/hullmods/hull_mods.csv&#10;kite_fighter_Starting&#9;FILE&#9;file://C:/Program Files (x86)/Fractal Softworks/Starsector/mods/Supercarrier/data/variants/kite_fighter_Starting.variant&#10;PhaseField&#9;PSI&#9;JAVA://com.fs.starfarer.api.impl.hullmods.PhaseField" />
+    <property name="SearchEverywhereHistoryKey" value="FleetMemberStatus&#9;PSI&#9;JAVA://com.fs.starfarer.api.fleet.FleetMemberStatusAPI&#10;hull&#9;FILE&#9;file://C:/Program Files (x86)/Fractal Softworks/Starsector/mods/Supercarrier/data/hullmods/hull_mods.csv&#10;kite_fighter_Starting&#9;FILE&#9;file://C:/Program Files (x86)/Fractal Softworks/Starsector/mods/Supercarrier/data/variants/kite_fighter_Starting.variant&#10;PhaseField&#9;PSI&#9;JAVA://com.fs.starfarer.api.impl.hullmods.PhaseField" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630248237188" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630295120270" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CheatMod" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -474,11 +537,11 @@
       <recent name="com.github.alycecil.hullmods" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\hulls" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\weapons" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\variants" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\graphics\weapons" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\hulls" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\graphics\ships" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\world\factions" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\weapons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -509,7 +572,7 @@
       <workItem from="1629755179896" duration="10527000" />
       <workItem from="1630072508995" duration="24043000" />
       <workItem from="1630152677689" duration="37425000" />
-      <workItem from="1630240882276" duration="7124000" />
+      <workItem from="1630240882276" duration="37725000" />
     </task>
     <task id="LOCAL-00001" summary="Added more hullmods and broke up LostTech.">
       <created>1629768653262</created>
@@ -539,11 +602,25 @@
       <option name="project" value="LOCAL" />
       <updated>1630191083550</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add shield generators to the titan">
+      <created>1630248699852</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630248699853</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Titan is shaded">
+      <created>1630258116246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630258116246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115491000" />
+    <option name="totallyTimeSpent" value="146092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,6 +633,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1861" height="1093" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20743206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -565,7 +643,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -600,23 +678,126 @@
     <MESSAGE value="Add my first kitbash capital" />
     <MESSAGE value="Make a big vulcan gun" />
     <MESSAGE value="My first kit bashes, Hull Tanked CCC, Super Carrier - PD and Assault" />
-    <option name="LAST_COMMIT_MESSAGE" value="My first kit bashes, Hull Tanked CCC, Super Carrier - PD and Assault" />
+    <MESSAGE value="Add shield generators to the titan" />
+    <MESSAGE value="Titan is shaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Titan is shaded" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/weapons/deco_blinker_amber.wpn">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/SensorDishView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/abstracts/CommonCombatHullmod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/combat/FluxTrackerAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/onslaught_carrier.ship">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5831">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/ships/CommCom.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/ships/Titan.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/module_titan_shield_xl_variant.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/campaign/sim_opponents.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/WiringLostTech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world/factions/player.faction">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world/factions/factions.csv">
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/wolf_commander_PD.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/onslaught_carrier_Standard.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/onslaught_escort_carrier_Standard.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/commcomm_support_variant.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/commcomm_support.ship">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/hullmods/hull_mods.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="138" selection-start-line="13" selection-start-column="138" selection-end-line="13" selection-end-column="138" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-table-editor">
+      <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
           <column index="1" width="100" />
@@ -639,197 +820,85 @@
           <column index="18" width="100" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/combat/WeaponAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="169" column="12" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/util/IntervalUtil.java">
+    <entry file="file://$PROJECT_DIR$/data/weapons/oversizedvulcan.wpn">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/combat/MutableShipStatsAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="156" column="42" lean-forward="true" selection-start-line="156" selection-start-column="42" selection-end-line="156" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hulls/kite_fighter.ship">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="157" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hulls/kite_fighter_2.ship">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hulls/commcomm_support.ship">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/ships/CommCom.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hulls/onslaught_escort_carrier.ship">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1972">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/weapons/deco_blinker_red_offcycle.wpn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/data/LostTechData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/weapons/deco_blinker_white_offcycle.wpn">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world/factions/pirates.faction">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world/factions/persean_league.faction">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/world/factions/default_ship_roles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/weapons/volleyoversizedvulcan.wpn">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="37" />
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/weapons/deco_blinker_white.wpn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/impl/hullmods/AdvancedGroundSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/impl/campaign/skills/CommandAndControl.java">
+    <entry file="file://$PROJECT_DIR$/data/world/factions/tritachyon.faction">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="96" />
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/impl/campaign/ids/Stats.java">
+    <entry file="file://$PROJECT_DIR$/data/world/factions/luddic_path.faction">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2568">
-          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/AutoLoaderLostTech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/AliceWingCommanderMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/FighterControl.java">
+    <entry file="file://$PROJECT_DIR$/data/world/factions/independent.faction">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-          </folding>
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/AliceFighterMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/FireControlLostTech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="50" column="62" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="62" />
-          <folding>
-            <element signature="e#2905#2906#0" expanded="true" />
-            <element signature="e#2945#2946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/onslaught_carrier_Standard.variant">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/kite_fighter_Support.variant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/kite_fighter_Starting.variant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/kite_fighter_Standard.variant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/kite_fighter_pirates_Raider.variant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/kite_fighter_luddic_path_Strike.variant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/kite_fighter_hegemony_Interceptor.variant">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/commcomm_support_variant.variant">
+    <entry file="file://$PROJECT_DIR$/data/world/factions/hegemony.faction">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/weapons/weapon_data.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="51">
+          <caret line="1" column="88" selection-start-line="1" selection-start-column="88" selection-end-line="1" selection-end-column="88" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-table-editor">
+      <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
           <column index="1" width="100" />
@@ -883,133 +952,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/ships/Titan.png">
+    <entry file="file://$PROJECT_DIR$/data/world/factions/luddic_church.faction">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphics/ships/TitanCorvusRear.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/HullTank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/graphics/ships/TitanCorvus.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/HotResupply.java">
+    <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_shield_xl.ship">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/LostTech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/PDLostTech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/SensorDishView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/WiringLostTech.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/weapons/oversizedvulcan.wpn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/onslaught_escort_carrier_Standard.variant">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/abstracts/CommonCombatHullmod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#1130#1131#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/combat/FluxTrackerAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_shield.ship">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/hulls/onslaught_carrier.ship">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5831">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        <state relative-caret-position="325">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/ShieldLostTech.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="682">
+          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_shield_xl.ship">
+    <entry file="file://$PROJECT_DIR$/../../starfarer.api/com/fs/starfarer/api/fleet/FleetMemberStatusAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/titan_variant.variant">
+    <entry file="file://$USER_HOME$/Downloads/FleetMemberStatus.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
+        <state relative-caret-position="-425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/variants/module_titan_shield_variant.variant">
@@ -1019,24 +1001,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/variants/module_titan_shield_xl_variant.variant">
+    <entry file="file://$PROJECT_DIR$/data/variants/titan_corvus_variant.variant">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="999">
+          <caret line="95" column="12" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/HullVariantSpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="383" column="24" lean-forward="true" selection-start-line="383" selection-start-column="24" selection-end-line="383" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_shield.ship">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/titan_2.ship">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/titan_corvus.ship">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10097">
+          <caret line="790" column="5" lean-forward="true" selection-start-line="790" selection-start-column="5" selection-end-line="790" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/hulls/titan.ship">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4600">
-          <caret line="230" column="22" lean-forward="true" selection-start-line="230" selection-start-column="22" selection-end-line="230" selection-end-column="22" />
+        <state relative-caret-position="-544">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/module_titan_rear.ship">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/wing_data.csv">
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+          <column index="10" width="100" />
+          <column index="11" width="100" />
+          <column index="12" width="100" />
+          <column index="13" width="100" />
+          <column index="14" width="100" />
+          <column index="15" width="100" />
+          <column index="16" width="100" />
+          <column index="17" width="100" />
+          <column index="18" width="100" />
+          <column index="19" width="100" />
+          <column index="20" width="100" />
+          <column index="21" width="100" />
+          <column index="22" width="100" />
+          <column index="23" width="100" />
+          <column index="24" width="100" />
+          <column index="25" width="100" />
+          <column index="26" width="100" />
+          <column index="27" width="100" />
+          <column index="28" width="100" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hulls/titan2.ship">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13416">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/commcomm_support_PD.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/titan_support.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/titan_variant.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/titan2_support.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/variants/module_titan_rear_variant.variant">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/hulls/ship_data.csv">
       <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="340">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="442">
+          <caret line="14" column="190" selection-start-line="14" selection-start-column="190" selection-end-line="14" selection-end-column="190" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="csv-table-editor">

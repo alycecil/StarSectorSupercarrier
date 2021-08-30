@@ -1,0 +1,51 @@
+{
+  "variantId": "commcomm_support_PD",
+  "hullId": "commcomm_support",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 36,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "hiressensors",
+    "turretgyros",
+    "recovery_shuttles"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator",
+        "WS0002": "devastator",
+        "WS0009": "devastator",
+        "WS0007": "devastator",
+        "WS0008": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "volleyoversizedvulcan",
+        "WS0004": "volleyoversizedvulcan",
+        "WS0005": "volleyoversizedvulcan",
+        "WS0006": "volleyoversizedvulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "oversizedvulcan",
+        "WS0011": "oversizedvulcan",
+        "WS0012": "oversizedvulcan",
+        "WS0013": "oversizedvulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

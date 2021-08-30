@@ -1,0 +1,29 @@
+{
+	"hullFrequency": {
+		"hulls": {
+			"commcomm_support": 0.2,
+			"onslaught_escort_carrier": 0.2,
+			"onslaught_carrier": 0.2
+		}
+	},
+	"knownShips": {
+		"hulls": [
+			"commcomm_support",
+			"onslaught_escort_carrier",
+			"onslaught_carrier"
+		]
+	},
+	"knownFighters":{
+		"fighters":[
+			"wolf_hegemony_fighter_Assault_wing",
+			"wolf_hegemony_fighter_CS_wing",
+			"wolf_hegemony_fighter_PD_wing",
+			"wolf_hegemony_fighter_Bomber_wing",
+			"wolf_hegemony_fighter_Bomber_xl_wing",
+			"kite_Interceptor_wing",
+			"kite_Interceptor_xl_wing",
+			"kite_Starting_wing"
+		],
+	},
+
+}

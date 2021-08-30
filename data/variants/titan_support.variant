@@ -1,0 +1,136 @@
+{
+  "variantId": "titan_support",
+  "hullId": "titan",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "gauss",
+        "WS0014": "gauss",
+        "WS0051": "gauss",
+        "WS0052": "gauss"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "mjolnir",
+        "WS0016": "mjolnir",
+        "WS0017": "mjolnir",
+        "WS0018": "mjolnir",
+        "WS0019": "mjolnir",
+        "WS0020": "mjolnir",
+        "WS0021": "mjolnir",
+        "WS0022": "mjolnir",
+        "WS0063": "mjolnir",
+        "WS0064": "mjolnir",
+        "WS0074": "mjolnir",
+        "WS0075": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "devastator",
+        "WS0024": "devastator",
+        "WS0049": "devastator",
+        "WS0050": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0033": "cyclone",
+        "WS0034": "cyclone",
+        "WS0035": "cyclone",
+        "WS0036": "cyclone",
+        "WS0037": "cyclone",
+        "WS0038": "cyclone",
+        "WS0039": "cyclone",
+        "WS0040": "cyclone",
+        "WS0041": "cyclone",
+        "WS0042": "cyclone",
+        "WS0043": "cyclone",
+        "WS0044": "cyclone",
+        "WS0045": "cyclone",
+        "WS0047": "cyclone",
+        "WS0048": "cyclone"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc",
+        "WS0002": "tpc",
+        "WS0003": "arbalest",
+        "WS0004": "railgun",
+        "WS0005": "railgun",
+        "WS0006": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "oversizedvulcan",
+        "WS0010": "oversizedvulcan",
+        "WS0011": "oversizedvulcan",
+        "WS0012": "oversizedvulcan",
+        "WS0027": "volleyoversizedvulcan",
+        "WS0028": "volleyoversizedvulcan",
+        "WS0029": "volleyoversizedvulcan",
+        "WS0030": "volleyoversizedvulcan",
+        "WS0031": "volleyoversizedvulcan",
+        "WS0032": "volleyoversizedvulcan",
+        "WS0053": "oversizedvulcan",
+        "WS0054": "oversizedvulcan",
+        "WS0055": "oversizedvulcan",
+        "WS0056": "oversizedvulcan",
+        "WS0057": "oversizedvulcan",
+        "WS0058": "oversizedvulcan",
+        "WS0059": "oversizedvulcan",
+        "WS0060": "oversizedvulcan",
+        "WS0061": "oversizedvulcan",
+        "WS0062": "oversizedvulcan",
+        "WS0065": "oversizedvulcan",
+        "WS0066": "oversizedvulcan",
+        "WS0067": "oversizedvulcan",
+        "WS0068": "oversizedvulcan",
+        "WS0069": "oversizedvulcan",
+        "WS0070": "oversizedvulcan",
+        "WS0071": "oversizedvulcan",
+        "WS0072": "oversizedvulcan",
+        "WS0073": "oversizedvulcan",
+        "WS0007": "volleyoversizedvulcan",
+        "WS0008": "volleyoversizedvulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MOD02": "module_titan_shield_variant"
+    },
+    {
+      "MOD01": "module_titan_shield_variant"
+    },
+    {
+      "MOD03": "module_titan_shield_xl_variant"
+    },
+    {
+      "MOD04": "module_titan_shield_xl_variant"
+    }
+  ],
+  "wings": []
+}
