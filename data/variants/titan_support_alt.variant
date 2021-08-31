@@ -1,0 +1,126 @@
+{
+  "variantId": "titan_support_alt",
+  "hullId": "titan",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "oversizedvulcan",
+        "WS0014": "oversizedvulcan",
+        "WS0078": "oversizedvulcan",
+        "WS0079": "oversizedvulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0033": "cyclone",
+        "WS0034": "cyclone",
+        "WS0035": "cyclone",
+        "WS0036": "cyclone",
+        "WS0037": "cyclone",
+        "WS0038": "cyclone",
+        "WS0039": "cyclone",
+        "WS0040": "cyclone",
+        "WS0041": "cyclone",
+        "WS0042": "cyclone",
+        "WS0043": "cyclone",
+        "WS0044": "cyclone",
+        "WS0045": "cyclone",
+        "WS0047": "cyclone",
+        "WS0048": "cyclone"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc",
+        "WS0002": "tpc",
+        "WS0003": "arbalest",
+        "WS0004": "swarmer_fighter",
+        "WS0005": "railgun",
+        "WS0006": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "dualflak",
+        "WS0008": "dualflak",
+        "WS0009": "oversizedvulcan",
+        "WS0010": "oversizedvulcan",
+        "WS0011": "oversizedvulcan",
+        "WS0012": "oversizedvulcan",
+        "WS0027": "volleyoversizedvulcan",
+        "WS0028": "volleyoversizedvulcan",
+        "WS0029": "volleyoversizedvulcan",
+        "WS0030": "volleyoversizedvulcan",
+        "WS0031": "volleyoversizedvulcan",
+        "WS0032": "volleyoversizedvulcan",
+        "WS0053": "oversizedvulcan",
+        "WS0054": "oversizedvulcan",
+        "WS0055": "oversizedvulcan",
+        "WS0056": "oversizedvulcan",
+        "WS0057": "oversizedvulcan",
+        "WS0058": "oversizedvulcan",
+        "WS0059": "oversizedvulcan",
+        "WS0060": "oversizedvulcan",
+        "WS0061": "oversizedvulcan",
+        "WS0062": "oversizedvulcan",
+        "WS0065": "oversizedvulcan",
+        "WS0066": "oversizedvulcan",
+        "WS0067": "oversizedvulcan",
+        "WS0068": "oversizedvulcan",
+        "WS0069": "oversizedvulcan",
+        "WS0070": "oversizedvulcan",
+        "WS0071": "oversizedvulcan",
+        "WS0072": "oversizedvulcan",
+        "WS0073": "oversizedvulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MOD02": "module_titan_shield_variant"
+    },
+    {
+      "MOD01": "module_titan_shield_variant"
+    },
+    {
+      "MOD03": "module_titan_shield_xl_variant"
+    },
+    {
+      "MOD04": "module_titan_shield_xl_variant"
+    },
+    {
+      "MOD006": "module_titan_shield_variant"
+    },
+    {
+      "MOD005": "module_titan_shield_variant"
+    },
+    {
+      "MOD07": "module_titan_anticap_aft_variant"
+    }
+  ],
+  "wings": [
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "kite_fighter_2_Starting_xl_wing",
+    "kite_fighter_2_Starting_xl_wing",
+    "kite_fighter_2_Starting_xl_wing",
+    "kite_fighter_2_Starting_xl_wing"
+  ]
+}

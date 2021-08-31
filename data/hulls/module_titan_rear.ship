@@ -24,9 +24,9 @@
   ],
   "builtInWings": [
     "kite_fighter_2_Starting_xl_wing",
-    "kite_fighter_2_Starting_xl_wing",
-    "xyphos_wing",
-    "xyphos_wing"
+    "kite_Support_PD_LG_wing",
+    "kite_Support_PD_LG_wing",
+    "kite_Support_PD_LG_wing"
   ],
   "builtInWeapons": {
     "WS0001": "vulcan",

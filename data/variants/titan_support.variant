@@ -4,7 +4,7 @@
   "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 46,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -13,34 +13,10 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "gauss",
-        "WS0014": "gauss",
-        "WS0051": "gauss",
-        "WS0052": "gauss",
+        "WS0013": "oversizedvulcan",
+        "WS0014": "oversizedvulcan",
         "WS0078": "oversizedvulcan",
         "WS0079": "oversizedvulcan"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0015": "mjolnir",
-        "WS0016": "mjolnir",
-        "WS0017": "mjolnir",
-        "WS0018": "mjolnir",
-        "WS0019": "mjolnir",
-        "WS0020": "mjolnir",
-        "WS0021": "mjolnir",
-        "WS0022": "mjolnir"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0049": "devastator",
-        "WS0050": "devastator"
       }
     },
     {
@@ -71,7 +47,7 @@
         "WS0001": "tpc",
         "WS0002": "tpc",
         "WS0003": "arbalest",
-        "WS0004": "railgun",
+        "WS0004": "swarmer_fighter",
         "WS0005": "railgun",
         "WS0006": "railgun"
       }
@@ -137,5 +113,14 @@
       "MOD07": "module_titan_rear_variant"
     }
   ],
-  "wings": []
+  "wings": [
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "kite_fighter_2_Starting_xl_wing",
+    "kite_fighter_2_Starting_xl_wing",
+    "kite_fighter_2_Starting_xl_wing",
+    "kite_fighter_2_Starting_xl_wing"
+  ]
 }

@@ -3,8 +3,8 @@
   "hullId": "titan",
   "displayName": "Devastator",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 46,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -13,32 +13,11 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "mjolnir",
-        "WS0014": "mjolnir",
-        "WS0051": "mjolnir",
-        "WS0052": "mjolnir",
+        "WS0013": "oversizedvulcan",
+        "WS0014": "oversizedvulcan",
         "WS0078": "oversizedvulcan",
         "WS0079": "oversizedvulcan"
       }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0015": "mjolnir",
-        "WS0016": "mjolnir",
-        "WS0017": "mjolnir",
-        "WS0018": "mjolnir",
-        "WS0019": "mjolnir",
-        "WS0020": "mjolnir",
-        "WS0021": "mjolnir",
-        "WS0022": "mjolnir"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
     },
     {
       "autofire": true,
@@ -89,8 +68,6 @@
         "WS0030": "volleyoversizedvulcan",
         "WS0031": "volleyoversizedvulcan",
         "WS0032": "volleyoversizedvulcan",
-        "WS0049": "devastator",
-        "WS0050": "devastator",
         "WS0053": "oversizedvulcan",
         "WS0054": "oversizedvulcan",
         "WS0055": "oversizedvulcan",
@@ -136,5 +113,14 @@
       "MOD07": "module_titan_rear_variant"
     }
   ],
-  "wings": []
+  "wings": [
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "kite_Interceptor_xl_wing",
+    "kite_Interceptor_xl_wing",
+    "kite_Interceptor_xl_wing",
+    "kite_Interceptor_xl_wing"
+  ]
 }
