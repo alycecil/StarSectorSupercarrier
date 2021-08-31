@@ -3,11 +3,10 @@ package com.github.alycecil.hullmods.abstracts;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
-import com.fs.starfarer.api.combat.FighterWingAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.github.alycecil.hullmods.data.LostTechData;
 
-public abstract class CommonCombatHullmod extends BaseHullMod {
+public abstract class CommonCombatHullmod<T extends LostTechData> extends BaseHullMod {
     public static final String CORE_RELOAD_DATA_KEY = "core_reload_data_key_losttecha_";
 
     @Override
@@ -27,18 +26,18 @@ public abstract class CommonCombatHullmod extends BaseHullMod {
 
         data.interval.advance(amount);
         if (data.interval.intervalElapsed()) {
-            doLoop(ship);
+            doLoop(ship, (T)data);
         }
 
     }
 
-    public LostTechData buildData() {
-        return new LostTechData();
+    public T buildData() {
+        return (T) new LostTechData();
     }
 
     protected abstract String getDataKey();
 
-    protected void doLoop(ShipAPI ship) {
+    protected void doLoop(ShipAPI ship, T data) {
         actionForShip(ship);
     }
 
