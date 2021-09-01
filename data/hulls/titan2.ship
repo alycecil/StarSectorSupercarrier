@@ -21,7 +21,9 @@
     "autorepair",
     "armoredweapons",
     "do_not_back_off",
-    "alice_commarray"
+    "alice_commarray",
+    "alice_siegemode",
+    "alice_titan"
   ],
   "builtInWeapons": {
     "WS0001": "tpc",

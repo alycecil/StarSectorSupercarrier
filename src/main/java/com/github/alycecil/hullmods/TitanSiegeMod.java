@@ -1,7 +1,9 @@
 package com.github.alycecil.hullmods;
 
+import com.fs.starfarer.api.combat.FighterWingAPI;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.ShipwideAIFlags;
 import com.github.alycecil.hullmods.abstracts.CommonCombatHullmod;
 import com.github.alycecil.hullmods.data.TitanLostTechData;
 
@@ -15,12 +17,19 @@ public class TitanSiegeMod extends CommonCombatHullmod<TitanLostTechData> {
 
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
-        super.applyEffectsAfterShipCreation(ship, id);
+        ship.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.BIGGEST_THREAT);
+        ship.getAIFlags().setFlag(ShipwideAIFlags.AIFlags.NEEDS_HELP);
     }
 
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        super.applyEffectsBeforeShipCreation(hullSize, stats, id);
+        stats.getDamageToCapital().modifyMult(id, 1.5f);
+        stats.getDamageToFighters().modifyMult(id, 0.35f);
+        stats.getDamageToMissiles().modifyMult(id, 0.35f);
+        stats.getDamageToFighters().modifyMult(id, 0.5f);
+        stats.getDamageToDestroyers().modifyMult(id, 0.75f);
+        stats.getDamageToCruisers().modifyMult(id, 0.85f);
+        stats.getEnergyAmmoBonus().modifyMult(id, 2f);
     }
 
     @Override
@@ -37,13 +46,19 @@ public class TitanSiegeMod extends CommonCombatHullmod<TitanLostTechData> {
             return;
         }
 
-
-        if(level.ordinal() < data.level.ordinal()){
+        if (level.ordinal() < data.level.ordinal()) {
             data.level.unapply(ship);
-        }else{
+        } else {
             level.apply(ship);
         }
         data.level = level;
+
+        for (FighterWingAPI wing : ship.getAllWings()) {
+            for (ShipAPI wingMember : wing.getWingMembers()) {
+                wingMember.getMutableStats().getDamageToCapital()
+                        .modifyMult(this.getClass().getName(), 2f);
+            }
+        }
 
     }
 

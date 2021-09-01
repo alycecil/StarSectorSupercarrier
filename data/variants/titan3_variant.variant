@@ -1,0 +1,148 @@
+{
+  "variantId": "titan3_variant",
+  "hullId": "titan3",
+  "displayName": "Bastion",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+
+        "WS0034": "typhoon",
+        "WS0036": "typhoon",
+        "WS0038": "typhoon",
+        "WS0040": "typhoon",
+        "WS0041": "typhoon",
+        "WS0042": "typhoon",
+        "WS0044": "typhoon",
+        "WS0045": "typhoon",
+        "WS0046": "typhoon",
+        "WS0048": "typhoon"
+
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc",
+        "WS0002": "tpc",
+        "WS0003": "arbalest",
+        "WS0015": "tpc",
+        "WS0016": "tpc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+
+        "WS0049": "oversizedvulcan",
+        "WS0050": "oversizedvulcan",
+        "WS0027": "volleyoversizedvulcan",
+        "WS0028": "volleyoversizedvulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0029": "dualflak",
+        "WS0030": "dualflak",
+        "WS0032": "dualflak",
+        "WS0007": "dualflak",
+        "WS0008": "dualflak",
+        "WS0017": "dualflak",
+        "WS0018": "dualflak",
+        "WS0019": "dualflak",
+        "WS0020": "dualflak",
+        "WS0021": "dualflak",
+        "WS0022": "dualflak",
+        "WS0031": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "taclaser",
+        "WS0005": "taclaser",
+        "WS0006": "taclaser",
+        "WS0009": "taclaser",
+        "WS0010": "taclaser",
+        "WS0011": "taclaser",
+        "WS0012": "taclaser",
+        "WS0013": "taclaser",
+        "WS0014": "taclaser",
+        "WS0053": "taclaser",
+        "WS0054": "taclaser",
+        "WS0055": "taclaser",
+        "WS0056": "taclaser",
+        "WS0057": "taclaser",
+        "WS0058": "taclaser",
+        "WS0059": "taclaser",
+        "WS0060": "taclaser",
+        "WS0061": "taclaser",
+        "WS0062": "taclaser",
+        "WS0065": "taclaser",
+        "WS0066": "taclaser",
+        "WS0067": "taclaser",
+        "WS0068": "taclaser",
+        "WS0069": "taclaser",
+        "WS0070": "taclaser",
+        "WS0071": "taclaser",
+        "WS0072": "taclaser",
+        "WS0073": "taclaser",
+        "WS0076": "taclaser",
+        "WS0077": "taclaser",
+        "WS0078": "taclaser",
+        "WS0079": "taclaser"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MODF01": "module_titan_shield_variant"
+    },
+    {
+      "MODF02": "module_titan_shield_variant"
+    },
+    {
+      "MOD07": "module_titan_anticap_aft_variant"
+    },
+    {
+      "MOD03": "module_titan_shield_xl_variant"
+    },
+    {
+      "MOD04": "module_titan_shield_xl_variant"
+    },
+    {
+      "MOD02": "module_titan_shield_variant"
+    },
+    {
+      "MOD01": "module_titan_shield_variant"
+    },
+    {
+      "WS0023": "module_titan_shield_variant"
+    },
+    {
+      "WS0024": "module_titan_shield_variant"
+    }
+  ],
+  "wings": [
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_hegemony_fighter_Bomber_xl_wing",
+    "wolf_fighter_PD_lg_wing",
+    "wolf_fighter_PD_lg_wing",
+    "kite_fighter_2_Starting_xl_wing"
+  ]
+}
