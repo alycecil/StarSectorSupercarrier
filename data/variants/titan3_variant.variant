@@ -3,8 +3,8 @@
   "hullId": "titan3",
   "displayName": "Bastion",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 1,
+  "fluxCapacitors": 50,
+  "fluxVents": 48,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -13,8 +13,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-
         "WS0034": "typhoon",
+        "WS0035": "typhoon",
         "WS0036": "typhoon",
         "WS0038": "typhoon",
         "WS0040": "typhoon",
@@ -24,7 +24,6 @@
         "WS0045": "typhoon",
         "WS0046": "typhoon",
         "WS0048": "typhoon"
-
       }
     },
     {
@@ -42,20 +41,16 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-
-        "WS0049": "oversizedvulcan",
-        "WS0050": "oversizedvulcan",
         "WS0027": "volleyoversizedvulcan",
-        "WS0028": "volleyoversizedvulcan"
+        "WS0028": "volleyoversizedvulcan",
+        "WS0049": "oversizedvulcan",
+        "WS0050": "oversizedvulcan"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0029": "dualflak",
-        "WS0030": "dualflak",
-        "WS0032": "dualflak",
         "WS0007": "dualflak",
         "WS0008": "dualflak",
         "WS0017": "dualflak",
@@ -64,7 +59,10 @@
         "WS0020": "dualflak",
         "WS0021": "dualflak",
         "WS0022": "dualflak",
-        "WS0031": "dualflak"
+        "WS0029": "dualflak",
+        "WS0030": "dualflak",
+        "WS0031": "dualflak",
+        "WS0032": "dualflak"
       }
     },
     {
@@ -136,13 +134,13 @@
     }
   ],
   "wings": [
-    "wolf_hegemony_fighter_Bomber_xl_wing",
-    "wolf_hegemony_fighter_Bomber_xl_wing",
-    "wolf_hegemony_fighter_Bomber_xl_wing",
-    "wolf_hegemony_fighter_Bomber_xl_wing",
-    "wolf_hegemony_fighter_Bomber_xl_wing",
-    "wolf_fighter_PD_lg_wing",
-    "wolf_fighter_PD_lg_wing",
-    "kite_fighter_2_Starting_xl_wing"
+    "wolf_fighter_PD_XL_wing",
+    "wolf_fighter_PD_XL_wing",
+    "wolf_fighter_PD_XL_wing",
+    "wolf_fighter_PD_XL_wing",
+    "wolf_fighter_PD_XL_wing",
+    "wolf_fighter_PD_XL_wing",
+    "wolf_fighter_PD_XL_wing",
+    "wolf_fighter_PD_XL_wing"
   ]
 }
