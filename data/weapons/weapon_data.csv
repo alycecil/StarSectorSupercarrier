@@ -1,7 +1,8 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Quad-Barreled Vulcan Cannon,oversizedvulcan,1,,5000,550,,10,25,1,55,12,,,,FRAGMENTATION,2,,0,0.05,4,,0,4,0.25,15,,800,,,10,,,PD,"pd7, SR, lowtech_bp, merc",,,,Point Defense,,,,,,,,,,71601
+Quad-Barreled Vulcan Cannon,oversizedvulcan,1,,5000,550,,10,25,1,55,12,,,,FRAGMENTATION,2,,0,0.05,4,,0,4,0.25,15,,800,,,10,,,"PD,SHOW_IN_CODEX","pd7, SR, lowtech_bp, merc",,,,Point Defense,,,,,,,,,,71601
 Blinker White,deco_blinker_white,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,71602
 Blinker Amber,deco_blinker_amber,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,71603
 Blinker White 2,deco_blinker_white_offcycle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,71604
 Blinker Red 2,deco_blinker_red_offcycle,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,71605
-Volleyfire Quad-Barreled Vulcan Cannon,volleyoversizedvulcan,1,,5000,750,,10,25,5,45,24,,,,FRAGMENTATION,2,,0,0.15,4,,0,4,0.25,15,,600,,,10,,,PD,"pd7, SR, lowtech_bp, merc",,,,Point Defense,,,,,,,,,,71606
+Volleyfire Quad-Barreled Vulcan Cannon,volleyoversizedvulcan,1,,5000,750,,10,25,5,45,24,,,,FRAGMENTATION,2,,0,0.15,4,,0,4,0.25,15,,600,,,10,,,"PD,SHOW_IN_CODEX","pd7, SR, lowtech_bp, merc",,,,Point Defense,,,,,,,,,,71606
+Thermal Pulse Cannon (Siege),alice_siege_tpc,0,,100000,2000,,250,150,0,0,200,25,1,,ENERGY,210,,0,1.5,5,0.05,0,10,2,5,,1200,,,,,,"SYSTEM,SHOW_IN_CODEX",,TPC_only,,,General,,,,,,,,,,71607

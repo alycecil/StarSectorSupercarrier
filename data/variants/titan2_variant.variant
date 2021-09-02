@@ -13,8 +13,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "alice_siege_tpc",
+        "WS0002": "alice_siege_tpc",
         "WS0007": "chaingun",
         "WS0008": "chaingun",
+        "WS0015": "alice_siege_tpc",
+        "WS0016": "alice_siege_tpc",
         "WS0017": "chaingun",
         "WS0018": "chaingun",
         "WS0019": "chaingun",
@@ -27,11 +31,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "tpc",
-        "WS0002": "tpc",
-        "WS0003": "arbalest",
-        "WS0015": "tpc",
-        "WS0016": "tpc"
+        "WS0003": "arbalest"
       }
     },
     {
@@ -77,8 +77,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0076": "shockrepeater",
-        "WS0077": "shockrepeater",
         "WS0004": "taclaser",
         "WS0005": "taclaser",
         "WS0006": "taclaser",
@@ -107,6 +105,8 @@
         "WS0071": "taclaser",
         "WS0072": "taclaser",
         "WS0073": "taclaser",
+        "WS0076": "shockrepeater",
+        "WS0077": "shockrepeater",
         "WS0078": "taclaser",
         "WS0079": "taclaser"
       }

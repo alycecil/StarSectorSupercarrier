@@ -22,11 +22,11 @@ kite_Standard_wing,kite_fighter_Standard,"interceptor3, interceptor, mid, midlin
 kite_Starting_wing,kite_fighter_Starting,"interceptor3, interceptor, mid, base_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,16,V,100000,500,0,1,INTERCEPTOR,Utility Frigate,60,7000,,,,,,,,,,,,,7180
 kite_Support_wing,kite_fighter_Support,"interceptor3, interceptor, mid, midline_bp, rapid_reform, merc",3,0.5,7,16,V,0,500,0,1,INTERCEPTOR,Support Frigate,60,9000,,,,,,,,,,,,,7181
 kite_fighter_2_Starting_wing,kite_fighter_2_Starting,"fighter5, fighter, high, rare_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,25,V,100000,500,0,1,FIGHTER,Modern Frigate,60,14000,,,,,,,,,,,,,7182
-kite_fighter_2_Starting_xl_wing,kite_fighter_2_Starting,"fighter5, fighter, high, rare_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,105,V,100000,500,0,5,FIGHTER,Modern Frigate,60,14000,,,,,,,,,,,,,7183
-wolf_hegemony_fighter_Bomber_xl_wing,wolf_hegemony_fighter_Bomber,"bomber5, bomber, high, rare_bp, heg_aux_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,200,V,100000,500,0,5,BOMBER,Hegemony Bomber Frigate,60,95000,,,,,,,,,,,,,7184
-kite_Interceptor_xl_wing,kite_fighter_hegemony_Interceptor,"interceptor3, interceptor, mid, rare_bp, heg_aux_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,66,V,5000,500,,5,INTERCEPTOR,PD Frigate,60,9000,,,,,,,,,,,,,7185
+kite_fighter_2_Starting_xl_wing,kite_fighter_2_Starting,"fighter5, fighter, high, rare_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,105,V,100000,500,0,5,FIGHTER,Modern Frigate,60,200000,,,,,,,,,,,,,7183
+wolf_hegemony_fighter_Bomber_xl_wing,wolf_hegemony_fighter_Bomber,"bomber5, bomber, high, rare_bp, heg_aux_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,200,V,100000,500,0,5,BOMBER,Hegemony Bomber Frigate,60,200000,,,,,,,,,,,,,7184
+kite_Interceptor_xl_wing,kite_fighter_hegemony_Interceptor,"interceptor3, interceptor, mid, rare_bp, heg_aux_bp, rapid_reform, independent_of_carrier, merc",3,0.5,7,66,V,5000,500,,5,INTERCEPTOR,PD Frigate,60,200000,,,,,,,,,,,,,7185
 wolf_fighter_PD_lg_wing,wolf_fighter_PD,"interceptor3, interceptor, high, hightech_bp, rapid_reform, merc",3,0.5,7,"80
-",V,1000,500,,3,INTERCEPTOR,PD Frigate,60,55000,,,,,,,,,,,,,7183
-kite_Support_PD_LG_wing,kite_fighter_Support,"interceptor3, interceptor, mid, midline_bp, rapid_reform, merc",3,0.5,7,46,V,0,500,0,3,INTERCEPTOR,Support Frigate,60,9000,,,,,,,,,,,,,7181
-kite_Support_PD_XL_wing,kite_fighter_Support,"interceptor3, interceptor, mid, midline_bp, rapid_reform, merc",3,0.5,7,90,V,0,500,0,6,INTERCEPTOR,Support Frigate,60,9000,,,,,,,,,,,,,7181
-wolf_fighter_PD_XL_wing,wolf_fighter_PD,"interceptor3, interceptor, high, hightech_bp, rapid_reform, merc",3,0.5,7,200,V,1000,500,,3,INTERCEPTOR,PD Frigate,60,55000,,,,,,,,,,,,,7183
+",V,1000,500,,3,INTERCEPTOR,PD Frigate,60,120000,,,,,,,,,,,,,7186
+kite_Support_PD_LG_wing,kite_fighter_Support,"interceptor3, interceptor, mid, midline_bp, rapid_reform, merc",3,0.5,7,46,V,0,500,0,3,INTERCEPTOR,Support Frigate,60,100000,,,,,,,,,,,,,7187
+kite_Support_PD_XL_wing,kite_fighter_Support,"interceptor3, interceptor, mid, midline_bp, rapid_reform, merc",3,0.5,7,90,V,0,500,0,6,INTERCEPTOR,Support Frigate,60,200000,,,,,,,,,,,,,7188
+wolf_fighter_PD_XL_wing,wolf_fighter_PD,"interceptor3, interceptor, high, hightech_bp, rapid_reform, merc",3,0.5,7,200,V,1000,500,,5,INTERCEPTOR,PD Frigate,60,200000,,,,,,,,,,,,,7189

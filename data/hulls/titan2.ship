@@ -12,22 +12,18 @@
   "shieldRadius": 991,
   "viewOffset": 0,
   "builtInMods": [
+    "alice_titan",
+    "alice_commarray",
     "alice_fighter_control",
-    "alice_fightermod",
     "alice_losttech",
     "alice_losttech_fire_control",
-    "supercomputer",
-    "blast_doors",
-    "autorepair",
-    "armoredweapons",
-    "do_not_back_off",
-    "alice_commarray",
+    "alice_losttech_shields",
     "alice_siegemode",
-    "alice_titan"
+    "alice_losttech_autoloader"
   ],
   "builtInWeapons": {
-    "WS0001": "tpc",
-    "WS0002": "tpc",
+    "WS0001": "alice_siege_tpc",
+    "WS0002": "alice_siege_tpc",
     "WS0003": "arbalest",
     "WS0004": "taclaser",
     "WS0005": "taclaser",
@@ -38,8 +34,8 @@
     "WS0012": "taclaser",
     "WS0013": "taclaser",
     "WS0014": "taclaser",
-    "WS0015": "tpc",
-    "WS0016": "tpc",
+    "WS0015": "alice_siege_tpc",
+    "WS0016": "alice_siege_tpc",
     "WS0025": "deco_blinker_red_offcycle",
     "WS0026": "sensordish",
     "WS0053": "taclaser",
@@ -82,7 +78,7 @@
       "mount": "HARDPOINT",
       "arc": 19,
       "angle": 0,
-      "locations": [904.5, 33.5]
+      "locations": [843, 35.5]
     },
     {
       "id": "WS0002",
@@ -91,7 +87,7 @@
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": -0,
-      "locations": [904.5, -36]
+      "locations": [843.5, -34.5]
     },
     {
       "id": "WS0003",
@@ -840,7 +836,7 @@
       "mount": "HARDPOINT",
       "arc": 19,
       "angle": 0,
-      "locations": [408.5, 24]
+      "locations": [359, 24]
     },
     {
       "id": "WS0016",
@@ -849,7 +845,7 @@
       "mount": "HARDPOINT",
       "arc": 19,
       "angle": -0,
-      "locations": [408.5, -24]
+      "locations": [359, -24]
     },
     {
       "id": "MODF01",

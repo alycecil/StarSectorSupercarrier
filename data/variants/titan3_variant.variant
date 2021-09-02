@@ -13,6 +13,10 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "alice_siege_tpc",
+        "WS0002": "alice_siege_tpc",
+        "WS0015": "alice_siege_tpc",
+        "WS0016": "alice_siege_tpc",
         "WS0034": "typhoon",
         "WS0035": "typhoon",
         "WS0036": "typhoon",
@@ -30,11 +34,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "tpc",
-        "WS0002": "tpc",
-        "WS0003": "arbalest",
-        "WS0015": "tpc",
-        "WS0016": "tpc"
+        "WS0003": "arbalest"
       }
     },
     {

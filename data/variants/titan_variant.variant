@@ -44,12 +44,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "tpc",
-        "WS0002": "tpc",
+        "WS0001": "alice_siege_tpc",
+        "WS0002": "alice_siege_tpc",
         "WS0003": "arbalest",
-        "WS0004": "railgun",
-        "WS0005": "railgun",
-        "WS0006": "railgun"
+        "WS0004": "taclaser",
+        "WS0005": "taclaser",
+        "WS0006": "taclaser"
       }
     },
     {
