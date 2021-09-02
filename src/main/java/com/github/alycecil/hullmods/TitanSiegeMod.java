@@ -23,7 +23,7 @@ public class TitanSiegeMod extends CommonCombatHullmod<TitanLostTechData> {
 
     @Override
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getDamageToCapital().modifyMult(id, 1.5f);
+        stats.getDamageToCapital().modifyMult(id, 2f);
         stats.getDamageToFighters().modifyMult(id, 0.35f);
         stats.getDamageToMissiles().modifyMult(id, 0.35f);
         stats.getDamageToFighters().modifyMult(id, 0.5f);
