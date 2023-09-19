@@ -7,14 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="034272ba-fa85-4d15-ae20-d39e2a708024" name="Default Changelist" comment="Add shield generators to the titan">
-      <change afterPath="$PROJECT_DIR$/graphics/hullmods/assault_package.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphics/hullmods/bulk_missile_storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphics/hullmods/efficiency_domain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/DomainEraBaseShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/starfarer_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/starfarer_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jars/Supercarrier.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jars/Supercarrier.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/production/Supercarrier/com/github/alycecil/hullmods/TitanMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/jars/production/Supercarrier/com/github/alycecil/hullmods/TitanMod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/production/Supercarrier/com/github/alycecil/hullmods/TitanSiegeMod.class" beforeDir="false" afterPath="$PROJECT_DIR$/jars/production/Supercarrier/com/github/alycecil/hullmods/TitanSiegeMod.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/graphics/hullmods" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
@@ -61,22 +59,22 @@
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="com.github.alycecil.hullmods.AutoLoaderLostTech" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector96\mods\StarSectorSupercarrier\graphics\hullmods" />
+      <recent name="C:\Users\alyce\Documents\GitHub\StarSectorSupercarrier\graphics\hullmods" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\weapons" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\variants" />
+      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\hulls" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.alycecil.hullmods" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\graphics\weapons" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\hulls" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\variants" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\hullmods" />
       <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.github.alycecil.hullmods" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alyce\Documents\GitHub\StarSectorSupercarrier\graphics\hullmods" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\weapons" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\variants" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\data\hulls" />
-      <recent name="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Supercarrier\graphics\ships" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -140,6 +138,7 @@
       <workItem from="1630499408926" duration="2778000" />
       <workItem from="1630532561545" duration="9109000" />
       <workItem from="1664748487541" duration="1398000" />
+      <workItem from="1695062465716" duration="9662000" />
     </task>
     <task id="LOCAL-00001" summary="Added more hullmods and broke up LostTech.">
       <created>1629768653262</created>
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630501458219</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Addable Versions for massive cost">
+      <created>1695062857781</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695062857781</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -234,7 +240,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -250,6 +258,7 @@
     <MESSAGE value="drop titan2 from csv; experiment did not work as expected" />
     <MESSAGE value="Add bastion titan" />
     <MESSAGE value="Add titan pd ship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add titan pd ship" />
+    <MESSAGE value="Add Addable Versions for massive cost" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Addable Versions for massive cost" />
   </component>
 </project>

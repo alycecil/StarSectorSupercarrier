@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="file://$PROJECT_DIR$/../../starfarer.api" />
+      <root url="jar://$PROJECT_DIR$/../../starsector-core/starfarer.api.zip!/" />
     </SOURCES>
   </library>
 </component>
