@@ -6,13 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034272ba-fa85-4d15-ae20-d39e2a708024" name="Default Changelist" comment="Add shield generators to the titan">
-      <change afterPath="$PROJECT_DIR$/graphics/hullmods/efficiency_domain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/DomainEraBaseShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/starfarer_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/starfarer_api.xml" afterDir="false" />
+    <list default="true" id="034272ba-fa85-4d15-ae20-d39e2a708024" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hullmods/hull_mods.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jars/Supercarrier.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jars/Supercarrier.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/SensorDishView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/alycecil/hullmods/SensorDishView.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +135,12 @@
       <workItem from="1630499408926" duration="2778000" />
       <workItem from="1630532561545" duration="9109000" />
       <workItem from="1664748487541" duration="1398000" />
-      <workItem from="1695062465716" duration="9662000" />
+      <workItem from="1695062465716" duration="10417000" />
+      <workItem from="1695148174487" duration="417000" />
+      <workItem from="1695157768394" duration="878000" />
+      <workItem from="1695177694189" duration="723000" />
+      <workItem from="1695251703964" duration="622000" />
+      <workItem from="1695338510134" duration="2810000" />
     </task>
     <task id="LOCAL-00001" summary="Added more hullmods and broke up LostTech.">
       <created>1629768653262</created>
@@ -210,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695062857781</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Efficiency Hull Mod">
+      <created>1695084944807</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695084944807</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -259,6 +268,7 @@
     <MESSAGE value="Add bastion titan" />
     <MESSAGE value="Add titan pd ship" />
     <MESSAGE value="Add Addable Versions for massive cost" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Addable Versions for massive cost" />
+    <MESSAGE value="Add Efficiency Hull Mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Efficiency Hull Mod" />
   </component>
 </project>

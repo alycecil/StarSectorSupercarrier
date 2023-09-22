@@ -33,7 +33,7 @@ public class SensorDishView extends BaseHullMod {
         stats.getDynamic().getMod(Stats.getSurveyCostReductionId(Commodities.SUPPLIES)).modifyMult(id, 0.5f, "Active CCC");
 
         //salvage
-        stats.getDynamic().getMod(Stats.SALVAGE_VALUE_MULT_MOD).modifyFlat(id, (Float) (0.4f));
+        stats.getDynamic().getMod(Stats.SALVAGE_VALUE_MULT_MOD).modifyFlat(id, (Float) (1.4f));
 
         //game view
         stats.getDynamic().getMod(Stats.HRS_SENSOR_RANGE_MOD).modifyFlat(id, 2000f,"Over-sized Scanning Array");
